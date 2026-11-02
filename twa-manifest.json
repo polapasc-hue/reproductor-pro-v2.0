@@ -1,0 +1,18 @@
+{
+  "packageId": "com.loygan.reproductorpro",
+  "host": "polapasc-hue.github.io",
+  "name": "Reproductor Pro v4 Studio",
+  "launcherName": "Repro Pro",
+  "display": "standalone",
+  "themeColor": "#14181c",
+  "backgroundColor": "#14181c",
+  "navigationColor": "#14181c",
+  "startUrl": "/reproductor-pro-v2/",
+  "iconUrl": "https://polapasc-hue.github.io/reproductor-pro-v2/icon-512.png",
+  "maskableIconUrl": "https://polapasc-hue.github.io/reproductor-pro-v2/icon-512.png",
+  "webManifestUrl": "https://polapasc-hue.github.io/reproductor-pro-v2/manifest.webmanifest",
+  "splashScreenFadeOutDuration": 300,
+  "enableNotifications": true,
+  "fallbackType": "customtabs",
+  "minSdkVersion": 23
+}

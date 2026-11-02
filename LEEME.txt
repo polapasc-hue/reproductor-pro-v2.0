@@ -1,0 +1,24 @@
+REPO: https://github.com/polapasc-hue/reproductor-pro-v2
+PAGES URL: https://polapasc-hue.github.io/reproductor-pro-v2/
+
+1. SUBE ESTOS 4 ARCHIVOS A TU REPO (reemplaza):
+   - index.html
+   - manifest.webmanifest
+   - sw.js
+   - icon-192.png
+   - icon-512.png
+
+2. ACTIVA PAGES:
+   GitHub -> tu repo -> Settings -> Pages -> Source: main / root -> Save
+   Espera 1-2 min. Abre https://polapasc-hue.github.io/reproductor-pro-v2/ debe verse tu reproductor sin freeze.
+
+3. GENERA APK (OPCION FACIL):
+   Entra a: https://www.pwabuilder.com/reportcard?site=https://polapasc-hue.github.io/reproductor-pro-v2/
+   Package for Stores -> Android -> Generate -> Descarga APK
+
+4. O CON BUBBLEWRAP:
+   npm i -g @bubblewrap/cli
+   bubblewrap init --manifest https://polapasc-hue.github.io/reproductor-pro-v2/manifest.webmanifest
+   bubblewrap build
+
+TU APK YA ESTA LISTO PARA GENERAR.
